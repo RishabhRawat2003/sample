@@ -1,1 +1,38 @@
-@import "tailwindcss";
+@import "tailwindcss";@import "tailwindcss";
+
+
+
+/* Tailwind CSS or custom CSS */
+.bg-\[\#def4ff\] {
+  background-color: #def4ff;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.hover\:bg-blue-700:hover {
+  background-color: #1a365d;
+}
+
+.transition {
+  transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .space-y-6 > * + * {
+    margin-top: 1.5rem;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+}
+
+
+

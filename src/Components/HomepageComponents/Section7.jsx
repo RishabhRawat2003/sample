@@ -48,7 +48,7 @@ function Section7() {
             <h1 className='text-[#5BDCE3] w-full h-auto font-semibold text-xl sm:text-2xl lg:text-4xl'>Contact us</h1>
             <div className='w-full h-auto grid grid-cols-1 gap-4 sm:grid-cols-2'>
                 <CustomInput label="Name" inputType="text" required />
-                <CustomInput label="Phone" inputType="number" required />
+                <CustomInput label="Phone" inputType="text" required />
                 <CustomInput label="Email" inputType="email" required />
                 <CustomInput label="Project Info (Budget if avail.)*" required />
                 <div className='w-full h-autp flex gap-1 lg:gap-2'>
